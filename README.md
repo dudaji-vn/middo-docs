@@ -1,0 +1,2 @@
+# middo-docs
+User manual
