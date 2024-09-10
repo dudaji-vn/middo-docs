@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 5
 hide_table_of_contents: true
 custom_edit_url: null
 pagination_next: null
@@ -8,7 +8,7 @@ title: Why I can NOT reply to a conversation
 ---
 # Why I can NOT reply to a conversation
 
-![ ](./img/why-i-can-not-reply%20to-a-conversation.png)
+![ ](./img/why-i-can-not-reply-to-a-conversation.png)
 
 Sometimes, you will can NOT reply to a conversation if
 - In Conversation page: You’re blocked by a user

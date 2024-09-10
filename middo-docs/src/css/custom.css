@@ -6,7 +6,14 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #3d88ed;
+  --dudaji-color: #3D88ED;
+  --dudaji-color-default: #D0DEF1;
+  --dudaji-color-hover: #A4C2EA;
+  --dudaji-color-pressed: #72A5E9;
+  --dudaji-menu-color: #F8FAFC;
+  --dudaji-menu-line-color: #F2F2F2;
+
+  --ifm-color-primary: #3D88ED;
   --ifm-color-primary-dark: #2277ea;
   --ifm-color-primary-darker: #166fe8;
   --ifm-color-primary-darkest: #125cbf;
@@ -15,87 +22,121 @@
   --ifm-color-primary-lightest: #8fbaf5;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  .menu {
-    background-color: #F8FAFC;
-  }
-  .navbar {
-    background-color: #F8FAFC;
-    border-bottom: 1px solid #F2F2F2 ; 
-  } 
+
+
+  /* Menu text color */
+  --ifm-menu-color: var(--ifm-color-emphasis-700) !important;
+  /* Menu text color ACTIVE*/
+  --ifm-menu-color-active: var(--dudaji-color) !important;
+  --ifm-menu-color-background-active: var(--dudaji-color-default) !important;
+  --ifm-menu-color-background-hover: rgba(0, 0, 0, 0);
+  --ifm-menu-link-padding-horizontal: 0.75rem;
+  --ifm-menu-link-padding-vertical: 0.5rem;
+
+
+  --ifm-breadcrumb-color-active: var(--dudaji-color);
+  --ifm-breadcrumb-item-background-active: var(--ifm-hover-overlay);
+
+  /* --ifm-hover-overlay: var(--ifm-menu-color-background-active) !important; */
+
+  /* .menu {
+  background-color: var(--dudaji-menu-color) !important;
+} */
+
+  /* .navbar {
+  background-color: var(--dudaji-menu-color) !important;
+  border-bottom: 1px solid #F2F2F2 !important;
+} */
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
+  --dudaji-color: #3D88ED;
+  --dudaji-color-default: #00275C;
+  --dudaji-color-hover: #003D8F;
+  --dudaji-color-pressed: #0053C2;
+  --dudaji-menu-line-color: #333333;
+  --dudaji-menu-color: #191919;
+
   --ifm-color-primary: #3d88ed;
-  --ifm-color-primary-dark: #2277ea;
-  --ifm-color-primary-darker: #166fe8;
-  --ifm-color-primary-darkest: #125cbf;
+  --ifm-color-primary-dark: #0053C2;
+  --ifm-color-primary-darker: #003D8F;
+  --ifm-color-primary-darkest: #00275C;
   --ifm-color-primary-light: #5899f0;
   --ifm-color-primary-lighter: #66a1f1;
   --ifm-color-primary-lightest: #8fbaf5;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-  .navbar {
-    background-color: #191919;
-    border-bottom: 1px solid #333333 ; 
-  } 
-  .menu {
-    background-color: #191919;
-  }
+
+
+  /* Menu item ACTIVE - background color */
+  --ifm-breadcrumb-color-active: var(--dudaji-color) !important;
+  --ifm-menu-color-background-active: var(--dudaji-color-default) !important;
+
+
+
+  /* .navbar {
+    background-color: var(--dudaji-menu-color) !important;
+    border-bottom: 1px solid #333333 !important;
+  } */
+
+  /* .menu {
+    background-color: var(--dudaji-menu-color) !important;
+  } */
+
+
 }
 
+
+
+.breadcrumbs__link {
+  background-color: var(--dudaji-color-default) !important;
+}
+
+/* Padding right for menu item */
 .menu_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-Content-styles-module {
-  padding: 0.5rem !important;
-}
-
-
-
-/* Màu nền cho menu con khi được chọn */
-.menu__list-item .menu__link--active {
-  background-color: #A4C2EA; 
-  color: #3D88ED;
-}
-
-.menu__list-item-collapsible:hover{
-  background-color: none !important; 
+  padding-right: 5px !important;
 }
 
 .markdown img {
   max-height: 300px !important;
-  object-fit:scale-down !important; 
+  object-fit: scale-down !important;
 }
 
-
-/* Thay đổi màu nền của mục sidebar khi được hover (di chuột qua) */
-.menu__link:hover , .menu__list-item-collapsible .menu__link:hover{
-  background-color: #A4C2EA !important; 
-  color: #3D88ED;
-  /* color: rgb(255, 255, 255);  */
+/* Menu item HOVER color */
+.menu__link:hover,
+.menu__list-item-collapsible .menu__link:hover {
+  background-color: var(--dudaji-color-hover) !important;
+  color: var(--dudaji-color) !important;
 }
 
 .menu__link {
-  padding: 7px;
-  padding-left: 12px;
   border-radius: 12px;
 }
 
+/* Menu item ACTIVE - background color */
 .menu__list-item-collapsible .menu__link--active {
-  background: #A4C2EA !important;
+  background: var(--ifm-menu-color-background-active) !important;
+  /* color: var(--dudaji-color) !important; */
 }
 
-.navbar__brand {
-  align-items: start;
-  margin-right:0;
+.breadcrumbs__link {
+  background-color: var(--ifm-menu-color-background-active) !important;
+  color: var(--ifm-menu-color-active) !important;
+  margin-bottom: 0.4rem;
 }
-.navbar__item {
-  padding: var(--ifm-navbar-item-padding-vertical);
+
+
+.menu_SIkG {
+  padding: 0.5rem !important;
+  background-color: var(--dudaji-menu-color);
+  /* padding-right: 0.5rem ; */
 }
-/* 
-.theme-doc-sidebar-item-link-level-1
-{
-  padding: 20px;
-background-color: red;
+
+.navbar {
+  background-color: var(--dudaji-menu-color);
+  border-bottom: 1px var(--dudaji-menu-line-color) !important;
 }
-.menu__list-item-collapsible .theme-doc-sidebar-item-link-level-1
-{
-  padding: 20px;
-} */
+
+.menu__link--sublist-caret:after {
+  background: var(--ifm-menu-link-sublist-icon) 50% / 1.5rem 1.5rem;
+}

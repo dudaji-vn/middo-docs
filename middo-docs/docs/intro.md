@@ -2,6 +2,7 @@
 sidebar_position: 1
 hide_table_of_contents: true
 custom_edit_url: null
+slug: /
 pagination_next: null
 pagination_prev: null
 title: What is Middo

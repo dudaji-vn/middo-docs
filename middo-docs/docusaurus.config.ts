@@ -15,8 +15,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Dudaji', // Usually your GitHub org/user name.
+  projectName: 'Middo Docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -35,10 +35,12 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          routeBasePath: '/', // Đặt Docs làm trang chủ
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         // blog: {
         //   showReadingTime: true,
@@ -53,7 +55,7 @@ const config: Config = {
         //   // Useful options to enforce blogging best practices
         //   onInlineTags: 'warn',
         //   onInlineAuthors: 'warn',
-        //   onUntruncatedBlogPosts: 'warn',
+        //   // onUntruncatedBlogPosts: 'warn',
         // },
         theme: {
           customCss: './src/css/custom.css',
@@ -65,8 +67,15 @@ const config: Config = {
   themeConfig: {
 
 
+    docs: {
+      sidebar: {
+        hideable: true,
+        autoCollapseCategories: true,
+
+      },
+    },
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    // image: 'img/docusaurus-social-card.jpg',
     navbar: {
       // title: '',
       logo: {
@@ -87,65 +96,114 @@ const config: Config = {
         //   label: 'Docs',
         //   position: 'left',
         // },
+
+
+        {
+          href: 'https://middo.app/',
+          label: 'Home',
+          position: 'left',
+        },
+
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Docs',
         },
+
         // { to: '/blog', label: 'Blog', position: 'left' },
+
+
+        {
+          type: 'localeDropdown',
+          position: 'right',
+          // dropdownItemsAfter: [
+          //   {
+          //     to: 'https://my-site.com/help-us-translate',
+          //     label: 'Help us translate',
+          //   },
+          // ],
+        },
+        // {
+        //   type: 'search',
+        //   position: 'right',
+        // },
         // {
         //   href: 'https://github.com/dudaji-vn',
         //   label: 'GitHub',
         //   position: 'right',
         // },
+
       ],
     },
-    // footer: {
-    //   style: 'dark',
-    //   links: [
-    //     {
-    //       title: 'Docs',
-    //       items: [
-    //         {
-    //           label: 'Tutorial',
-    //           to: '/docs/intro',
-    //         },
-    //       ],
-    //     },
-    //     {
-    //       title: 'Community',
-    //       items: [
-    //         {
-    //           label: 'Stack Overflow',
-    //           href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-    //         },
-    //         {
-    //           label: 'Discord',
-    //           href: 'https://discordapp.com/invite/docusaurus',
-    //         },
-    //         {
-    //           label: 'Twitter',
-    //           href: 'https://twitter.com/docusaurus',
-    //         },
-    //       ],
-    //     },
-    //     {
-    //       title: 'More',
-    //       items: [
-    //         {
-    //           label: 'Blog',
-    //           to: '/blog',
-    //         },
-    //         {
-    //           label: 'GitHub',
-    //           href: 'https://github.com/facebook/docusaurus',
-    //         },
-    //       ],
-    //     },
-    //   ],
-    //   copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-    // },
+    footer: {
+      // style: 'dark',
+      logo: {
+        alt: 'Middo Logo',
+        src: 'https://dudaji.vn/Img/f-logo.png',
+        // href: 'https://opensource.fb.com',
+        height: 51,
+      },
+      // links: [
+      //   {
+      //     title: 'Docs',
+      //     items: [
+      //       {
+      //         label: 'What is Middo',
+      //         to: '/docs/intro',
+      //       },
+      //       {
+      //         label: 'Translation',
+      //         to: '/docs/translation/what-is-translation',
+      //       },
+      //       {
+      //         label: 'Conversation',
+      //         to: '/docs/conversation/what-is-conversation',
+      //       },
+      //       {
+      //         label: 'Extension',
+      //         to: '/docs/extension/what-is-extension',
+      //       },
+      //       {
+      //         label: 'Why I can NOT reply to a conversation',
+      //         to: '/docs/why-i-can-not-reply-to-a-conversation',
+      //       },
+      //     ],
+      //   },
+      //   // {
+      //   //   title: 'Community',
+      //   //   items: [
+      //   //     {
+      //   //       label: 'Stack Overflow',
+      //   //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+      //   //     },
+      //   //     {
+      //   //       label: 'Discord',
+      //   //       href: 'https://discordapp.com/invite/docusaurus',
+      //   //     },
+      //   //     {
+      //   //       label: 'Twitter',
+      //   //       href: 'https://twitter.com/docusaurus',
+      //   //     },
+      //   //   ],
+      //   // },
+      //   {
+      //     title: 'Find us',
+      //     items: [
+      //       {
+      //         label: 'Blog',
+      //         href: 'https://fringe-salsa-849.notion.site/Dudaji-VN-Published-56bb001012814cb1aad472841a79dd3d',
+      //       },
+      //       {
+      //         label: 'GitHub',
+      //         href: 'https://github.com/dudaji-vn',
+      //       },
+      //     ],
+      //   },
+      // ],
+      copyright: `Dudaji, Inc © All Rights Reserved.`,
+      // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+    },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
