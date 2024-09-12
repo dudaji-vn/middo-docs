@@ -1,0 +1,24 @@
+{
+  "id": "station/how-to-use-station/information-bot",
+  "title": "Information Bot",
+  "description": "Infobot (Information Bot)",
+  "source": "@site/docs/station/how-to-use-station/information-bot.md",
+  "sourceDirName": "station/how-to-use-station",
+  "slug": "/station/how-to-use-station/information-bot",
+  "permalink": "/station/how-to-use-station/information-bot",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "hide_table_of_contents": true,
+    "custom_edit_url": null,
+    "pagination_next": null,
+    "pagination_prev": null,
+    "title": "Information Bot"
+  },
+  "sidebar": "tutorialSidebar"
+}

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 hide_table_of_contents: true
 custom_edit_url: null
 pagination_next: null

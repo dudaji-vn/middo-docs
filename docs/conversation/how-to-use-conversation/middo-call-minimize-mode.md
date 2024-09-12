@@ -7,7 +7,7 @@ pagination_prev: null
 title: Middo Call (Minimize Mode)
 ---
 
-# How to Use Conversation  
+# How to use Conversation  
 
 ### Middo Call (Minimize Mode)  
 

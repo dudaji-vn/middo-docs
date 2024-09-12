@@ -1,0 +1,24 @@
+{
+  "id": "conversation/how-to-use-conversation/message-box",
+  "title": "Message Box",
+  "description": "Message Box",
+  "source": "@site/docs/conversation/how-to-use-conversation/message-box.md",
+  "sourceDirName": "conversation/how-to-use-conversation",
+  "slug": "/conversation/how-to-use-conversation/message-box",
+  "permalink": "/conversation/how-to-use-conversation/message-box",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "hide_table_of_contents": true,
+    "custom_edit_url": null,
+    "pagination_next": null,
+    "pagination_prev": null,
+    "title": "Message Box"
+  },
+  "sidebar": "tutorialSidebar"
+}
