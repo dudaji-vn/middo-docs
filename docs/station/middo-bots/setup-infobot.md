@@ -65,11 +65,11 @@ Once Infobot is trained with data, you can use it in conversations
 
 Any member of the Station can ask Infobot questions, but it will only answer based on the user's access permissions for the data
 
-### **Important Notes:**
+:::info **Important Notes:**
 
 - Infobot learns from the data you provide
 Access permissions determine who can view and access data  
 - Infobot's answers are based on the user's access permissions for the data  
-
+:::
 
 By following these steps, you can create a helpful Infobot within your Middo Station to provide information and support to your team

@@ -13,40 +13,26 @@
   --dudaji-menu-color: #F8FAFC;
   --dudaji-menu-line-color: #F2F2F2;
 
+  --ifm-color-primary-lightest: #D0DEF1;
+  --ifm-color-primary-lighter: #A4C2EA;
+  --ifm-color-primary-light: #72A5E9;
   --ifm-color-primary: #3D88ED;
-  --ifm-color-primary-dark: #2277ea;
-  --ifm-color-primary-darker: #166fe8;
-  --ifm-color-primary-darkest: #125cbf;
-  --ifm-color-primary-light: #5899f0;
-  --ifm-color-primary-lighter: #66a1f1;
-  --ifm-color-primary-lightest: #8fbaf5;
+  --ifm-color-primary-dark: #0053C2;
+  --ifm-color-primary-darker: #003D8F;
+  --ifm-color-primary-darkest: #00275C;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
 
-  /* Menu text color */
-  --ifm-menu-color: var(--ifm-color-emphasis-700) !important;
-  /* Menu text color ACTIVE*/
-  --ifm-menu-color-active: var(--dudaji-color) !important;
   --ifm-menu-color-background-active: var(--dudaji-color-default) !important;
+  /* Menu items background color when active */
   --ifm-menu-color-background-hover: rgba(0, 0, 0, 0);
+  /* Menu items background color when hover */
   --ifm-menu-link-padding-horizontal: 0.75rem;
+  /* Space between text and border of menu items */
   --ifm-menu-link-padding-vertical: 0.5rem;
+  /* Space between text and border of menu items */
 
-
-  --ifm-breadcrumb-color-active: var(--dudaji-color);
-  --ifm-breadcrumb-item-background-active: var(--ifm-hover-overlay);
-
-  /* --ifm-hover-overlay: var(--ifm-menu-color-background-active) !important; */
-
-  /* .menu {
-  background-color: var(--dudaji-menu-color) !important;
-} */
-
-  /* .navbar {
-  background-color: var(--dudaji-menu-color) !important;
-  border-bottom: 1px solid #F2F2F2 !important;
-} */
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -58,45 +44,9 @@
   --dudaji-menu-line-color: #333333;
   --dudaji-menu-color: #191919;
 
-  --ifm-color-primary: #3d88ed;
-  --ifm-color-primary-dark: #0053C2;
-  --ifm-color-primary-darker: #003D8F;
-  --ifm-color-primary-darkest: #00275C;
-  --ifm-color-primary-light: #5899f0;
-  --ifm-color-primary-lighter: #66a1f1;
-  --ifm-color-primary-lightest: #8fbaf5;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-
-
-  /* Menu item ACTIVE - background color */
-  --ifm-breadcrumb-color-active: var(--dudaji-color) !important;
-  --ifm-menu-color-background-active: var(--dudaji-color-default) !important;
-
-
-
-  /* .navbar {
-    background-color: var(--dudaji-menu-color) !important;
-    border-bottom: 1px solid #333333 !important;
-  } */
-
-  /* .menu {
-    background-color: var(--dudaji-menu-color) !important;
-  } */
-
-
 }
 
-
-
-.breadcrumbs__link {
-  background-color: var(--dudaji-color-default) !important;
-}
-
-/* Padding right for menu item */
-.menu_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-Content-styles-module {
-  padding-right: 0.5rem !important;
-}
-
+/* use */
 .markdown img {
   max-height: 300px !important;
   width: 100% !important;
@@ -106,6 +56,23 @@
 }
 
 
+
+
+
+/* ---------------------- Menu format ----------------------*/
+.menu,
+.menu_SIkG {
+  background-color: var(--dudaji-menu-color);
+  border-right: 1px solid var(--dudaji-menu-line-color);
+  padding-right: 0.5rem !important;
+}
+
+/* Menu item border radius */
+.menu__link {
+  border-radius: 12px;
+}
+
+/* legit */
 /* Menu item HOVER color */
 .menu__link:hover,
 .menu__list-item-collapsible .menu__link:hover {
@@ -113,43 +80,123 @@
   color: var(--dudaji-color) !important;
 }
 
-.menu__link {
-  border-radius: 12px;
-}
 
 /* Menu item ACTIVE - background color */
 .menu__list-item-collapsible .menu__link--active {
   background: var(--ifm-menu-color-background-active) !important;
-  /* color: var(--dudaji-color) !important; */
 }
 
-.menu__list-item-collapsible .menu__list-item-collapsible--active {
-  background-color: var(--ifm-menu-color-background-active) !important;
-  /* color: var(--dudaji-color) !important; */
+/* Menu items level 1 size */
+.theme-doc-sidebar-item-link.theme-doc-sidebar-item-link-level-1.menu__list-item>.menu__link,
+.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1.menu__list-item>.menu__list-item-collapsible>.menu__link--sublist.menu__link--sublist-caret {
+  padding: 12px 0.75rem;
 }
 
+/* Menu items level 2 size */
+.theme-doc-sidebar-item-link.theme-doc-sidebar-item-link-level-2.menu__list-item>.menu__link,
+.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-2.menu__list-item>.menu__list-item-collapsible>.menu__link--sublist.menu__link--sublist-caret {
+  padding: 10px 0.75rem;
+}
+
+/* All menu sublist icon */
+.menu__link--sublist-caret:after {
+  background: var(--ifm-menu-link-sublist-icon) 50% / 1.3rem 1.3rem;
+}
+
+/* Level 1 menu sublist icon */
+.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1.menu__list-item>.menu__list-item-collapsible>.menu__link--sublist-caret:after {
+  background: var(--ifm-menu-link-sublist-icon) 50% / 1.5rem 1.5rem;
+}
+
+.button.button--secondary.button--outline {
+  /*collapseSidebarButton_node_modules-@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-CollapseButton-styles-module */
+  background-color: var(--dudaji-menu-color);
+  border: var(--dudaji-menu-color);
+}
+
+/* .clean-btn.navbar-sidebar__back {
+  color: var(--dudaji-color);
+  padding: 15px 0.75rem;
+} */
+
+/* .expandButton_node_modules-\@docusaurus-theme-classic-lib-theme-DocRoot-Layout-Sidebar-ExpandButton-styles-module {
+  background-color: red;
+  border: 20px red !important;
+} */
+
+/* ---------------------- Breadcrumb ----------------------*/
+
+/** Description:
+ * Breadcrumb color
+ * This item is label of docs folder contain docs previewed,
+display on top of each docs. 
+*/
+
+/* Breadcrumbs color */
 .breadcrumbs__link {
-  background-color: var(--ifm-menu-color-background-active) !important;
+  background: var(--ifm-menu-color-background-active) !important;
   color: var(--ifm-menu-color-active) !important;
   margin-bottom: 0.4rem;
 }
 
-
-.menu_SIkG {
-  padding: 0.5rem !important;
-  background-color: var(--dudaji-menu-color);
-  /* padding-right: 0.5rem ; */
+/* Present breadcrumbs color */
+/* .breadcrumbs__item--active .breadcrumbs__link {
+  background: var(--dudaji-color-hover) !important;
 }
+*/
 
+
+
+
+
+/* ---------------------- navbar ----------------------*/
+
+/* Navbar background color */
 .navbar {
   background-color: var(--dudaji-menu-color);
-  border-bottom: 1px var(--dudaji-menu-line-color) !important;
+  /* margin: 1; */
 }
 
-.menu__link--sublist-caret:after {
-  background: var(--ifm-menu-link-sublist-icon) 50% / 1.5rem 1.5rem;
+/* use, but not now */
+/* Hide pagination_prev & pagination_next on index page of folder */
+.pagination-nav.docusaurus-mt-lg {
+  display: none;
 }
 
+/* Language icon  */
+.navbar__item.dropdown.dropdown--hoverable.dropdown--right {
+  background: var(--ifm-font-color-base-inverse);
+  border: 1px solid var(--dudaji-menu-line-color);
+  border-radius: 12px;
+  margin-right: 5px;
+}
+
+/* .navbar__link {font-size: 0;
+margin-left: 5px;
+} */
+
+.navbar__item.dropdown.dropdown--hoverable.dropdown--right>.navbar__link {
+  /* border: 1px solid red !important; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/* ---------------------- docs ----------------------*/
+
+/* Padding of code for docs */
+code {
+  padding: var(--ifm-code-padding-vertical) 0.3rem;
+}
+
+
+
+
+
+
+/* ---------------------- BACKUP ----------------------*/
 /* .menu__list-item-collapsible--active {
   background-color: red;
   border-radius: 12px;
@@ -158,17 +205,20 @@
 .menu__caret {
   background-color: red !important;
   border-radius: 12px;
-} */
+} 
 
 blockquote {
   background-color: #F8FAFC;
+} 
+
+don't know
+.breadcrumbs__link {
+  background-color: var(--dudaji-color-default) !important;
 }
 
-/* Hide pagination_prev & pagination_next on  */
-.pagination-nav.docusaurus-mt-lg {
-  display: none;
-}
 
-code {
-  padding: var(--ifm-code-padding-vertical) 0.3rem;
-}
+don't know
+.menu__list-item-collapsible .menu__list-item-collapsible--active {
+  background-color: var(--ifm-menu-color-background-active) !important;
+  color: var(--dudaji-color) !important;
+}*/

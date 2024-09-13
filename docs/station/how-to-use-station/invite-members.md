@@ -62,9 +62,9 @@ Click on the button on the right side of the link box to copy the generated link
 **4. Share Link**  
 Share the link with the people you want to invite to your station    
   
-**Important Notes:**  
+:::info **Important Notes:**  
 -  You can invite members by email/username or by sharing a unique invitation link
 -  The invitation link has an expiration time, so make sure to share it with your team members before it expires    
-  
+:::
   
   
