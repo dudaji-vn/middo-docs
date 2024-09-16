@@ -1,0 +1,24 @@
+{
+  "id": "station/how-to-use-station/invite-members copy",
+  "title": "Middo Bots",
+  "description": "Middo offers a variety of bots designed to enhance collaboration and efficiency within your Middo Station. These bots act as AI assistants, automating tasks, providing information, and streamlining communication. Here's a breakdown of some key bots available on Middo:",
+  "source": "@site/docs/station/how-to-use-station/invite-members copy.md",
+  "sourceDirName": "station/how-to-use-station",
+  "slug": "/station/how-to-use-station/invite-members copy",
+  "permalink": "/station/how-to-use-station/invite-members copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "hide_table_of_contents": true,
+    "custom_edit_url": null,
+    "pagination_next": null,
+    "pagination_prev": null,
+    "title": "Middo Bots"
+  },
+  "sidebar": "tutorialSidebar"
+}

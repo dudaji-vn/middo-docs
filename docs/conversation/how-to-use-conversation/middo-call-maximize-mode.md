@@ -7,7 +7,7 @@ pagination_prev: null
 title: Middo Call (Maximize Mode)  
 ---
 
-# How to Use Conversation  
+# How to use Conversation  
 
 ### Middo Call (Maximize Mode)  
 

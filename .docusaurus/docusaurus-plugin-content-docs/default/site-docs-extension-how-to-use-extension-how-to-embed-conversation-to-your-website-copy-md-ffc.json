@@ -1,0 +1,24 @@
+{
+  "id": "extension/how-to-use-extension/how-to-embed-conversation-to-your-website copy",
+  "title": "How to use?",
+  "description": "Step 1: Create a Space",
+  "source": "@site/docs/extension/how-to-use-extension/how-to-embed-conversation-to-your-website copy.md",
+  "sourceDirName": "extension/how-to-use-extension",
+  "slug": "/extension/how-to-use-extension/how-to-embed-conversation-to-your-website copy",
+  "permalink": "/extension/how-to-use-extension/how-to-embed-conversation-to-your-website copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "hide_table_of_contents": true,
+    "custom_edit_url": null,
+    "pagination_next": null,
+    "pagination_prev": null,
+    "title": "How to use?"
+  },
+  "sidebar": "tutorialSidebar"
+}

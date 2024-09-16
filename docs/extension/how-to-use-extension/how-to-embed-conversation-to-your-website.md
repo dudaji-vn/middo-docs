@@ -26,13 +26,14 @@ title: How to embed Conversation to your website?
 2\. Click “Create Extension” and set up your extension 
 ![ ](./img/embed-conversation-4.png)
 
-   3.1\. Set up your domain (the list of public sites that you allow your Conversation Extension to appear on)  
+3.1\. Set up your domain (the list of public sites that you allow your Conversation Extension to appear on)  
 ![ ](./img/embed-conversation-5.png)
 
    3.2\. Set up your starting message. There are 3 options:  
       - Default: A default message to greet and guide users  
       - Custom: Write your own greeting message  
       - Scripted conversation: Choose available script or create your new script
+
 ![ ](./img/embed-conversation-6.png)
 
    3.3\. Customize your Extension. You can choose: Theme, Conversation icon, and other options  
@@ -55,14 +56,14 @@ a. Access your WordPress (https://wordpress.com/login)
 ![ ](./img/embed-conversation-10.png)
 
 b. Adding an embed:  
-Click on “Pages”
+Click on “Pages”  
 ![ ](./img/embed-conversation-11.png)
 
 Click on the page you want your chat, or click on "Add new page”
 ![ ](./img/embed-conversation-12.png)
 
 c. Setting up an embed  
-Click on the "+" icon
+Click on the "+" icon  
 ![ ](./img/embed-conversation-13.png)
 
 Search for "Custom HTML" and click it
