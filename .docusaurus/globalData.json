@@ -6,6 +6,149 @@
         {
           "name": "current",
           "label": "Next",
+          "isLast": false,
+          "path": "/next",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "conversation/how-to-use-conversation/converation-list",
+              "path": "/next/conversation/how-to-use-conversation/converation-list",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "conversation/how-to-use-conversation/discussion",
+              "path": "/next/conversation/how-to-use-conversation/discussion",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "conversation/how-to-use-conversation/input-message-box",
+              "path": "/next/conversation/how-to-use-conversation/input-message-box",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "conversation/how-to-use-conversation/message-box",
+              "path": "/next/conversation/how-to-use-conversation/message-box",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "conversation/how-to-use-conversation/message-item",
+              "path": "/next/conversation/how-to-use-conversation/message-item",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "conversation/how-to-use-conversation/middo-call-maximize-mode",
+              "path": "/next/conversation/how-to-use-conversation/middo-call-maximize-mode",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "conversation/how-to-use-conversation/middo-call-minimize-mode",
+              "path": "/next/conversation/how-to-use-conversation/middo-call-minimize-mode",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "conversation/what-is-conversation",
+              "path": "/next/conversation/what-is-conversation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "extension/how-to-use-extension/how-to-embed-conversation-to-your-website",
+              "path": "/next/extension/how-to-use-extension/how-to-embed-conversation-to-your-website",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "extension/how-to-use-extension/how-to-manage-your-script-conversation",
+              "path": "/next/extension/how-to-use-extension/how-to-manage-your-script-conversation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "extension/what-is-extension",
+              "path": "/next/extension/what-is-extension",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/next/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "station/how-to-use-station/create-new-station",
+              "path": "/next/station/how-to-use-station/create-new-station",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "station/how-to-use-station/invite-members",
+              "path": "/next/station/how-to-use-station/invite-members",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "station/how-to-use-station/manage-station",
+              "path": "/next/station/how-to-use-station/manage-station",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "station/middo-bots/information-bot",
+              "path": "/next/station/middo-bots/information-bot",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "station/middo-bots/notification-bot",
+              "path": "/next/station/middo-bots/notification-bot",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "station/middo-bots/setup-infobot",
+              "path": "/next/station/middo-bots/setup-infobot",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "station/middo-bots/summary-bot",
+              "path": "/next/station/middo-bots/summary-bot",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "station/what-is-station",
+              "path": "/next/station/what-is-station",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "translation/how-to-use-translation/advance-features",
+              "path": "/next/translation/how-to-use-translation/advance-features",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "translation/how-to-use-translation/source",
+              "path": "/next/translation/how-to-use-translation/source",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "translation/how-to-use-translation/target",
+              "path": "/next/translation/how-to-use-translation/target",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "translation/what-is-translation",
+              "path": "/next/translation/what-is-translation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "why-i-can-not-reply-to-a-conversation",
+              "path": "/next/why-i-can-not-reply-to-a-conversation",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/next/",
+                "label": "intro"
+              }
+            }
+          }
+        },
+        {
+          "name": "1.0.0",
+          "label": "1.0.0",
           "isLast": true,
           "path": "/",
           "mainDocId": "intro",

@@ -1,25 +1,25 @@
-import { themes as prismThemes } from 'prism-react-renderer';
-import type { Config } from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
+import { themes as prismThemes } from "prism-react-renderer";
+import type { Config } from "@docusaurus/types";
+import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: 'Middo Docs',
-  tagline: 'User Manual',
-  favicon: 'img/favicon.ico',
+  title: "Middo Docs",
+  tagline: "User Manual",
+  favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: "https://your-docusaurus-site.example.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Dudaji', // Usually your GitHub org/user name.
-  projectName: 'Middo Docs', // Usually your repo name.
+  organizationName: "Dudaji", // Usually your GitHub org/user name.
+  projectName: "Middo Docs", // Usually your repo name.
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -29,25 +29,26 @@ const config: Config = {
   //   locales: ['en'],
   // },
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
     localeConfigs: {
       en: {
-        label: 'English'
+        label: "English",
       },
-    }
+    },
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       {
         docs: {
-          sidebarPath: './sidebars.ts',
+          sidebarPath: "./sidebars.ts",
 
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          routeBasePath: '/', // Đặt Docs làm trang chủ
+          routeBasePath: "/", // Đặt Docs làm trang chủ
+
           // editUrl:
           //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
@@ -67,20 +68,17 @@ const config: Config = {
         //   // onUntruncatedBlogPosts: 'warn',
         // },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
       } satisfies Preset.Options,
     ],
   ],
 
   themeConfig: {
-
-
     docs: {
       sidebar: {
         hideable: true,
         autoCollapseCategories: true,
-
       },
     },
     // Replace with your project's social card
@@ -88,11 +86,10 @@ const config: Config = {
     navbar: {
       // title: '',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
-        srcDark: 'img/logo-dark.svg',
+        alt: "My Site Logo",
+        src: "img/logo.svg",
+        srcDark: "img/logo-dark.svg",
       },
-
 
       items: [
         // {
@@ -107,26 +104,35 @@ const config: Config = {
         //   position: 'left',
         // },
 
-
         {
-          href: 'https://middo.app/',
-          label: 'Home',
-          position: 'left',
+          href: "https://middo.app/",
+          label: "Home",
+          position: "left",
         },
 
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Docs',
+          type: "docSidebar",
+          sidebarId: "tutorialSidebar",
+          position: "left",
+          label: "Docs",
         },
-
+        // {
+        //   type: "docsVersion",
+        //   position: "right",
+        //   to: "/",
+        //   label: "1.0.0",
+        // },
+        {
+          type: "docsVersionDropdown",
+          position: "right",
+          // dropdownItemsAfter: [{ to: "/versions", label: "All versions" }],
+          // dropdownActiveClassDisabled: true,
+        },
         // { to: '/blog', label: 'Blog', position: 'left' },
 
-
         {
-          type: 'localeDropdown',
-          position: 'right',
+          type: "localeDropdown",
+          position: "right",
           // dropdownItemsAfter: [
           //   {
           //     to: 'https://my-site.com/help-us-translate',
@@ -143,14 +149,13 @@ const config: Config = {
         //   label: 'GitHub',
         //   position: 'right',
         // },
-
       ],
     },
     footer: {
       // style: 'dark',
       logo: {
-        alt: 'Middo Logo',
-        src: 'https://dudaji.vn/Img/f-logo.png',
+        alt: "Middo Logo",
+        src: "img/footer-logo.png",
         // href: 'https://opensource.fb.com',
         height: 51,
       },

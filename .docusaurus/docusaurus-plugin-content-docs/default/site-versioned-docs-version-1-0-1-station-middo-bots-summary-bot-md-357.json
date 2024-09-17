@@ -1,0 +1,23 @@
+{
+  "id": "station/middo-bots/summary-bot",
+  "title": "Summary Bot",
+  "description": "Sumbot (Summary Bot)",
+  "source": "@site/versioned_docs/version-1.0.1/station/middo-bots/summary-bot.md",
+  "sourceDirName": "station/middo-bots",
+  "slug": "/station/middo-bots/summary-bot",
+  "permalink": "/station/middo-bots/summary-bot",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "1.0.1",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "hide_table_of_contents": true,
+    "custom_edit_url": null,
+    "pagination_next": null,
+    "pagination_prev": null,
+    "title": "Summary Bot"
+  }
+}

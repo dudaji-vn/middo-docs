@@ -1,0 +1,24 @@
+{
+  "id": "conversation/what-is-conversation",
+  "title": "What is Conversation",
+  "description": "What is Conversation",
+  "source": "@site/versioned_docs/version-1.1.0/conversation/what-is-conversation.md",
+  "sourceDirName": "conversation",
+  "slug": "/conversation/what-is-conversation",
+  "permalink": "/conversation/what-is-conversation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "1.1.0",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "hide_table_of_contents": true,
+    "custom_edit_url": null,
+    "pagination_next": null,
+    "pagination_prev": null,
+    "title": "What is Conversation"
+  },
+  "sidebar": "tutorialSidebar"
+}
