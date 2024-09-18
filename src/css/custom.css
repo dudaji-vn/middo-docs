@@ -12,6 +12,9 @@
   --dudaji-color-pressed: #72A5E9;
   --dudaji-menu-color: #F8FAFC;
   --dudaji-menu-line-color: #F2F2F2;
+  --dudaji-contrast-lv1-color: #0053C2;
+  --dudaji-contrast-lv2-color: #003D8F;
+  --dudaji-contrast-lv3-color: #00275C;
 
   --ifm-color-primary-lightest: #D0DEF1;
   --ifm-color-primary-lighter: #A4C2EA;
@@ -46,6 +49,9 @@
   --dudaji-color-pressed: #0053C2;
   --dudaji-menu-color: #191919;
   --dudaji-menu-line-color: #333333;
+  --dudaji-contrast-lv1-color: #72A5E9;
+  --dudaji-contrast-lv2-color: #A4C2EA;
+  --dudaji-contrast-lv3-color: #D0DEF1;
 
 }
 
@@ -53,8 +59,11 @@
 .markdown img {
   max-height: 300px !important;
   width: 100% !important;
-  object-fit: scale-down !important;
   border-radius: 12px;
+  object-fit: scale-down !important;
+
+
+
   /* box-shadow: 2px 4px 16px 2px rgba(22, 22, 22, 0.1); */
 }
 
@@ -102,12 +111,12 @@
 
 /* All menu sublist icon */
 .menu__link--sublist-caret:after {
-  background: var(--ifm-menu-link-sublist-icon) 50% / 1.3rem 1.3rem;
+  background: var(--ifm-menu-link-sublist-icon) 100% / 1.3rem 1.3rem;
 }
 
 /* Menu sublist icon level 1*/
 .theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1.menu__list-item>.menu__list-item-collapsible>.menu__link--sublist-caret:after {
-  background: var(--ifm-menu-link-sublist-icon) 50% / 1.5rem 1.5rem;
+  background: var(--ifm-menu-link-sublist-icon) 100% / 1.5rem 1.5rem;
 }
 
 
@@ -140,20 +149,32 @@ align-items:center; */
 .expandButton_src-theme-DocRoot-Layout-Sidebar-ExpandButton-styles-module {
   top: calc(100% - 52.5px) !important;
   height: 52.5px !important;
-  background-color: var(--dudaji-menu-color) !important;
+  background-color: transparent !important;
+  color: var(--dudaji-contrast-lv1-color);
 }
 
 /* Expand button Hover */
 /* .expandButton_k9J9:hover, */
-/* .expandButton_src-theme-DocRoot-Layout-Sidebar-ExpandButton-styles-module:hover {
-  background-color: var(--dudaji-menu-color) !important;
-} */
+.expandButton_src-theme-DocRoot-Layout-Sidebar-ExpandButton-styles-module:hover {
+  /* background-color: var(--dudaji-menu-color) !important; */
+  color: var(--dudaji-color)
+}
 
 /* Menu background */
 .sidebarViewport_pYEE,
 .sidebarViewport_src-theme-DocRoot-Layout-Sidebar-styles-module {
   background-color: var(--dudaji-menu-color) !important;
   border: transparent 1px solid;
+}
+
+
+.button.button--secondary.button--outline:not(.button--active):not(:hover) {
+  /* color: var(--ifm-menu-link-sublist-icon) 50%; */
+  color: var(--dudaji-contrast-lv1-color);
+}
+
+.button.button--secondary.button--outline:hover {
+  color: var(--dudaji-color);
 }
 
 
