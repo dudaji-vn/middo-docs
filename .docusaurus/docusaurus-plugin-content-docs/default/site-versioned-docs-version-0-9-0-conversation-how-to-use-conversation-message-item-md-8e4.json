@@ -1,0 +1,24 @@
+{
+  "id": "conversation/how-to-use-conversation/message-item",
+  "title": "Message Item",
+  "description": "Message Item",
+  "source": "@site/versioned_docs/version-0.9.0/conversation/how-to-use-conversation/message-item.md",
+  "sourceDirName": "conversation/how-to-use-conversation",
+  "slug": "/conversation/how-to-use-conversation/message-item",
+  "permalink": "/0.9.0/conversation/how-to-use-conversation/message-item",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "0.9.0",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "hide_table_of_contents": true,
+    "custom_edit_url": null,
+    "pagination_next": null,
+    "pagination_prev": null,
+    "title": "Message Item"
+  },
+  "sidebar": "tutorialSidebar"
+}

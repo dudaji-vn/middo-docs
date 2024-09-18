@@ -1,0 +1,23 @@
+{
+  "id": "why-i-can-not-reply-to-a-conversation",
+  "title": "Why I can NOT reply to a conversation",
+  "description": "Sometimes, you will can NOT reply to a conversation if",
+  "source": "@site/versioned_docs/version-1.0.1/why-i-can-not-reply-to-a-conversation.md",
+  "sourceDirName": ".",
+  "slug": "/why-i-can-not-reply-to-a-conversation",
+  "permalink": "/why-i-can-not-reply-to-a-conversation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "1.0.1",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "hide_table_of_contents": true,
+    "custom_edit_url": null,
+    "pagination_next": null,
+    "pagination_prev": null,
+    "title": "Why I can NOT reply to a conversation"
+  }
+}

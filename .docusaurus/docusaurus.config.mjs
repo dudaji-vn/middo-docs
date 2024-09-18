@@ -67,6 +67,12 @@ export default {
           "label": "Docs"
         },
         {
+          "type": "docsVersionDropdown",
+          "position": "right",
+          "dropdownItemsBefore": [],
+          "dropdownItemsAfter": []
+        },
+        {
           "type": "localeDropdown",
           "position": "right",
           "dropdownItemsBefore": [],
@@ -78,7 +84,7 @@ export default {
     "footer": {
       "logo": {
         "alt": "Middo Logo",
-        "src": "https://dudaji.vn/Img/f-logo.png",
+        "src": "img/footer-logo.png",
         "height": 51
       },
       "copyright": "Dudaji, Inc © All Rights Reserved.",
