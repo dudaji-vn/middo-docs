@@ -16,7 +16,7 @@ This guide will walk you through the process of creating a Middo Station, a coll
 **1\. Go to middo.app**  
 Open your web browser and navigate to [middo.app](https:/middo.app). Then click on your current station  
 ![](./img/how-to-create-station-1.png)  
-**2\.Click "Create new station"**  
+**2\. Click "Create new station"**  
 Locate and click the `Create new station` button. This will take you to the station creation page  
 ![](./img/how-to-create-station-2.png)
 

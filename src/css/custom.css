@@ -47,12 +47,14 @@
   --dudaji-color-default: #00275C;
   --dudaji-color-hover: #003D8F;
   --dudaji-color-pressed: #0053C2;
-  --dudaji-menu-color: #191919;
+  --dudaji-menu-color: #0D0D0D;
   --dudaji-menu-line-color: #333333;
   --dudaji-contrast-lv1-color: #72A5E9;
   --dudaji-contrast-lv2-color: #A4C2EA;
   --dudaji-contrast-lv3-color: #D0DEF1;
 
+  --ifm-background-color: #0D0D0D !important;
+  --ifm-navbar-background-color: #191919
 }
 
 /* use */
@@ -126,35 +128,42 @@
 /* collapse button  */
 .collapseSidebarButton_JQG6,
 .collapseSidebarButton_src-theme-DocSidebar-Desktop-CollapseButton-styles-module {
-  display: block;
-  display: none !important;
+  /* display: block; */
+  /* display: none !important; */
   left: 249px;
   /* justify-content: center;
 align-items:center; */
-  height: 50px !important;
-  width: 30px;
+  height: 53px !important;
+  width: 50px;
   padding: 0px !important;
   background-color: transparent !important;
-  border: none !important;
+  border: 0px !important;
+  /* border-radius: 12px !important; */
 }
 
 /* Collapse button HOVER */
-/* .collapseSidebarButton_JQG6,
+.collapseSidebarButton_JQG6:hover,
 .collapseSidebarButton_src-theme-DocSidebar-Desktop-CollapseButton-styles-module:hover {
-  background-color: var(--dudaji-menu-color) !important;
+  /* background-color: var(--dudaji-color-hover) !important; */
+  color: var(--dudaji-color);
+}
+
+/* .button.button--secondary.button--outline:hover {
+  color: var(--dudaji-color);
 } */
 
 /* Expand button */
 .expandButton_k9J9,
 .expandButton_src-theme-DocRoot-Layout-Sidebar-ExpandButton-styles-module {
-  top: calc(100% - 52.5px) !important;
-  height: 52.5px !important;
+  top: calc(100% - 52px) !important;
+  height: 52px !important;
   background-color: transparent !important;
-  color: var(--dudaji-contrast-lv1-color);
+  /* color: var(--dudaji-contrast-lv1-color); */
 }
 
 /* Expand button Hover */
-/* .expandButton_k9J9:hover, */
+.expandButton_k9J9:hover,
+.toggleButton_gllP:hover,
 .expandButton_src-theme-DocRoot-Layout-Sidebar-ExpandButton-styles-module:hover {
   /* background-color: var(--dudaji-menu-color) !important; */
   color: var(--dudaji-color)
@@ -167,14 +176,21 @@ align-items:center; */
   border: transparent 1px solid;
 }
 
-
-.button.button--secondary.button--outline:not(.button--active):not(:hover) {
-  /* color: var(--ifm-menu-link-sublist-icon) 50%; */
-  color: var(--dudaji-contrast-lv1-color);
+/* Back menu item - Mobile */
+.navbar-sidebar__back {
+  padding: 13px 0.75rem;
 }
 
-.button.button--secondary.button--outline:hover {
-  color: var(--dudaji-color);
+/* .button.button--secondary.button--outline:not(.button--active):not(:hover) {
+  color: var(--dudaji-contrast-lv1-color);
+} */
+
+
+/* Border right menu */
+@media (min-width: 997px) {
+  .docSidebarContainer_src-theme-DocRoot-Layout-Sidebar-styles-module {
+    border-right: 1px solid var(--dudaji-menu-line-color) !important;
+  }
 }
 
 
@@ -208,6 +224,12 @@ display on top of each docs.
 
 /* ---------------------- navbar ----------------------*/
 
+/* navbar */
+.navbar {
+  background-color: var(--ifm-navbar-background-color);
+  height: 52px;
+}
+
 /* use, but not now */
 /* Hide pagination_prev & pagination_next on index page of folder */
 .pagination-nav.docusaurus-mt-lg {
@@ -230,10 +252,16 @@ display on top of each docs.
   justify-content: center;
 }
 
-.dropdown__link:not(.dropdown__link--active) {
-  display: none;
+/* Dark/light mode button*/
+.toggleButton_gllP:hover,
+.toggleButton_node_modules-\@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module:hover {
+  color: var(--dudaji-color);
+  background-color: var(--dudaji-color-hover) !important;
 }
 
+/* .dropdown__link:not(.dropdown__link--active) {
+  display: none;
+} */
 
 
 /* ---------------------- docs ----------------------*/
