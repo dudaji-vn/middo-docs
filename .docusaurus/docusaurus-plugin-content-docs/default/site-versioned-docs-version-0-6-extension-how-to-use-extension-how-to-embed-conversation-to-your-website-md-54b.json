@@ -1,0 +1,24 @@
+{
+  "id": "extension/how-to-use-extension/how-to-embed-conversation-to-your-website",
+  "title": "How to embed Conversation to your website?",
+  "description": "Step 1: Create a Space",
+  "source": "@site/versioned_docs/version-0.6/extension/how-to-use-extension/how-to-embed-conversation-to-your-website.md",
+  "sourceDirName": "extension/how-to-use-extension",
+  "slug": "/extension/how-to-use-extension/how-to-embed-conversation-to-your-website",
+  "permalink": "/extension/how-to-use-extension/how-to-embed-conversation-to-your-website",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "0.6",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "hide_table_of_contents": true,
+    "custom_edit_url": null,
+    "pagination_next": null,
+    "pagination_prev": null,
+    "title": "How to embed Conversation to your website?"
+  },
+  "sidebar": "tutorialSidebar"
+}

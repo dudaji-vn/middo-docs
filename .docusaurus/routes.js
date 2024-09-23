@@ -44,19 +44,43 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '498'),
+    component: ComponentCreator('/', '0d3'),
     routes: [
       {
         path: '/next',
-        component: ComponentCreator('/next', '6d5'),
+        component: ComponentCreator('/next', '98e'),
         routes: [
           {
             path: '/next',
-            component: ComponentCreator('/next', 'cdd'),
+            component: ComponentCreator('/next', '248'),
             routes: [
               {
                 path: '/next/',
                 component: ComponentCreator('/next/', 'abf'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/next/category/conversation',
+                component: ComponentCreator('/next/category/conversation', '17b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/next/category/extension',
+                component: ComponentCreator('/next/category/extension', '736'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/next/category/middo-bots',
+                component: ComponentCreator('/next/category/middo-bots', '0d1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/next/category/station',
+                component: ComponentCreator('/next/category/station', '469'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -210,159 +234,213 @@ export default [
       },
       {
         path: '/',
-        component: ComponentCreator('/', '63d'),
+        component: ComponentCreator('/', '0cd'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', 'de5'),
+            component: ComponentCreator('/', '1a6'),
             routes: [
               {
+                path: '/category/conversation',
+                component: ComponentCreator('/category/conversation', 'ed7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/category/extension',
+                component: ComponentCreator('/category/extension', '07e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/category/how-to-use-conversation',
+                component: ComponentCreator('/category/how-to-use-conversation', 'db9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/category/how-to-use-extension',
+                component: ComponentCreator('/category/how-to-use-extension', 'f8b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/category/how-to-use-station',
+                component: ComponentCreator('/category/how-to-use-station', '286'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/category/how-to-use-translation',
+                component: ComponentCreator('/category/how-to-use-translation', '482'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/category/middo-bots',
+                component: ComponentCreator('/category/middo-bots', '807'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/category/station',
+                component: ComponentCreator('/category/station', '0b2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/category/translation',
+                component: ComponentCreator('/category/translation', 'b59'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/conversation/how-to-use-conversation/converation-list',
-                component: ComponentCreator('/conversation/how-to-use-conversation/converation-list', 'd36'),
+                component: ComponentCreator('/conversation/how-to-use-conversation/converation-list', 'c03'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/conversation/how-to-use-conversation/discussion',
-                component: ComponentCreator('/conversation/how-to-use-conversation/discussion', '857'),
+                component: ComponentCreator('/conversation/how-to-use-conversation/discussion', '402'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/conversation/how-to-use-conversation/input-message-box',
-                component: ComponentCreator('/conversation/how-to-use-conversation/input-message-box', '4da'),
+                component: ComponentCreator('/conversation/how-to-use-conversation/input-message-box', 'd29'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/conversation/how-to-use-conversation/message-box',
-                component: ComponentCreator('/conversation/how-to-use-conversation/message-box', '8ae'),
+                component: ComponentCreator('/conversation/how-to-use-conversation/message-box', '26d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/conversation/how-to-use-conversation/message-item',
-                component: ComponentCreator('/conversation/how-to-use-conversation/message-item', '1c7'),
+                component: ComponentCreator('/conversation/how-to-use-conversation/message-item', 'f1d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/conversation/how-to-use-conversation/middo-call-maximize-mode',
-                component: ComponentCreator('/conversation/how-to-use-conversation/middo-call-maximize-mode', '842'),
+                component: ComponentCreator('/conversation/how-to-use-conversation/middo-call-maximize-mode', '1b1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/conversation/how-to-use-conversation/middo-call-minimize-mode',
-                component: ComponentCreator('/conversation/how-to-use-conversation/middo-call-minimize-mode', '7ea'),
+                component: ComponentCreator('/conversation/how-to-use-conversation/middo-call-minimize-mode', '0e5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/conversation/what-is-conversation',
-                component: ComponentCreator('/conversation/what-is-conversation', '822'),
+                component: ComponentCreator('/conversation/what-is-conversation', '741'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/extension/how-to-use-extension/how-to-embed-conversation-to-your-website',
-                component: ComponentCreator('/extension/how-to-use-extension/how-to-embed-conversation-to-your-website', '6fe'),
+                component: ComponentCreator('/extension/how-to-use-extension/how-to-embed-conversation-to-your-website', '47a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/extension/how-to-use-extension/how-to-manage-your-script-conversation',
-                component: ComponentCreator('/extension/how-to-use-extension/how-to-manage-your-script-conversation', '4b6'),
+                component: ComponentCreator('/extension/how-to-use-extension/how-to-manage-your-script-conversation', 'fe2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/extension/what-is-extension',
-                component: ComponentCreator('/extension/what-is-extension', 'c9e'),
+                component: ComponentCreator('/extension/what-is-extension', '1f7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/station/how-to-use-station/create-new-station',
-                component: ComponentCreator('/station/how-to-use-station/create-new-station', '85e'),
+                component: ComponentCreator('/station/how-to-use-station/create-new-station', '9f4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/station/how-to-use-station/invite-members',
-                component: ComponentCreator('/station/how-to-use-station/invite-members', 'fe1'),
+                component: ComponentCreator('/station/how-to-use-station/invite-members', '36d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/station/how-to-use-station/manage-station',
-                component: ComponentCreator('/station/how-to-use-station/manage-station', '9bb'),
+                component: ComponentCreator('/station/how-to-use-station/manage-station', 'fd6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/station/middo-bots/information-bot',
-                component: ComponentCreator('/station/middo-bots/information-bot', 'ef5'),
+                component: ComponentCreator('/station/middo-bots/information-bot', '207'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/station/middo-bots/notification-bot',
-                component: ComponentCreator('/station/middo-bots/notification-bot', '7c7'),
+                component: ComponentCreator('/station/middo-bots/notification-bot', 'ce3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/station/middo-bots/setup-infobot',
-                component: ComponentCreator('/station/middo-bots/setup-infobot', 'b24'),
+                component: ComponentCreator('/station/middo-bots/setup-infobot', '0cd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/station/middo-bots/summary-bot',
-                component: ComponentCreator('/station/middo-bots/summary-bot', '740'),
+                component: ComponentCreator('/station/middo-bots/summary-bot', 'a24'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/station/what-is-station',
-                component: ComponentCreator('/station/what-is-station', '865'),
+                component: ComponentCreator('/station/what-is-station', '00a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/translation/how-to-use-translation/advance-features',
-                component: ComponentCreator('/translation/how-to-use-translation/advance-features', '945'),
+                component: ComponentCreator('/translation/how-to-use-translation/advance-features', 'fbe'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/translation/how-to-use-translation/source',
-                component: ComponentCreator('/translation/how-to-use-translation/source', '076'),
+                component: ComponentCreator('/translation/how-to-use-translation/source', '157'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/translation/how-to-use-translation/target',
-                component: ComponentCreator('/translation/how-to-use-translation/target', '838'),
+                component: ComponentCreator('/translation/how-to-use-translation/target', '0ae'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/translation/what-is-translation',
-                component: ComponentCreator('/translation/what-is-translation', '510'),
+                component: ComponentCreator('/translation/what-is-translation', 'ff1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/why-i-can-not-reply-to-a-conversation',
-                component: ComponentCreator('/why-i-can-not-reply-to-a-conversation', '9ee'),
+                component: ComponentCreator('/why-i-can-not-reply-to-a-conversation', 'f23'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/',
-                component: ComponentCreator('/', 'e94'),
+                component: ComponentCreator('/', '397'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

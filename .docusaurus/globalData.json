@@ -134,6 +134,26 @@
               "id": "why-i-can-not-reply-to-a-conversation",
               "path": "/next/why-i-can-not-reply-to-a-conversation",
               "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/conversation",
+              "path": "/next/category/conversation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/extension",
+              "path": "/next/category/extension",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/station",
+              "path": "/next/category/station",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/middo-bots",
+              "path": "/next/category/middo-bots",
+              "sidebar": "tutorialSidebar"
             }
           ],
           "draftIds": [],
@@ -147,8 +167,8 @@
           }
         },
         {
-          "name": "1.0.0",
-          "label": "1.0.0",
+          "name": "0.6",
+          "label": "0.6",
           "isLast": true,
           "path": "/",
           "mainDocId": "intro",
@@ -276,6 +296,51 @@
             {
               "id": "why-i-can-not-reply-to-a-conversation",
               "path": "/why-i-can-not-reply-to-a-conversation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/translation",
+              "path": "/category/translation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/how-to-use-translation",
+              "path": "/category/how-to-use-translation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/conversation",
+              "path": "/category/conversation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/how-to-use-conversation",
+              "path": "/category/how-to-use-conversation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/extension",
+              "path": "/category/extension",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/how-to-use-extension",
+              "path": "/category/how-to-use-extension",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/station",
+              "path": "/category/station",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/how-to-use-station",
+              "path": "/category/how-to-use-station",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/middo-bots",
+              "path": "/category/middo-bots",
               "sidebar": "tutorialSidebar"
             }
           ],
