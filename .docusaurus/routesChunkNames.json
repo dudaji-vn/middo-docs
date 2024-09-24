@@ -49,22 +49,38 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/-498": {
+  "/-0d3": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---aba-d70"
     }
   },
-  "/next-6d5": {
+  "/next-98e": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---nextb-68-93e"
   },
-  "/next-cdd": {
+  "/next-248": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/next/-abf": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---next-0-e-3-b6e"
+  },
+  "/next/category/conversation-17b": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---next-category-conversationa-0-e-4e8"
+  },
+  "/next/category/extension-736": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---next-category-extension-4-ec-4b3"
+  },
+  "/next/category/middo-bots-0d1": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---next-category-middo-bots-078-d28"
+  },
+  "/next/category/station-469": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---next-category-statione-52-5da"
   },
   "/next/conversation/how-to-use-conversation/converation-list-079": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -162,111 +178,147 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---next-why-i-can-not-reply-to-a-conversation-672-e96"
   },
-  "/-63d": {
+  "/-0cd": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---22-d-307"
   },
-  "/-de5": {
+  "/-1a6": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
-  "/conversation/how-to-use-conversation/converation-list-d36": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---conversation-how-to-use-conversation-converation-list-4-a-4-292"
+  "/category/conversation-ed7": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---category-conversationeeb-62b"
   },
-  "/conversation/how-to-use-conversation/discussion-857": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---conversation-how-to-use-conversation-discussion-842-39e"
+  "/category/extension-07e": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---category-extensione-76-18d"
   },
-  "/conversation/how-to-use-conversation/input-message-box-4da": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---conversation-how-to-use-conversation-input-message-boxb-80-c42"
+  "/category/how-to-use-conversation-db9": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---category-how-to-use-conversationf-0-a-064"
   },
-  "/conversation/how-to-use-conversation/message-box-8ae": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---conversation-how-to-use-conversation-message-boxe-46-2ee"
+  "/category/how-to-use-extension-f8b": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---category-how-to-use-extension-50-b-a78"
   },
-  "/conversation/how-to-use-conversation/message-item-1c7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---conversation-how-to-use-conversation-message-itemb-39-1b5"
+  "/category/how-to-use-station-286": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---category-how-to-use-station-4-fb-74f"
   },
-  "/conversation/how-to-use-conversation/middo-call-maximize-mode-842": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---conversation-how-to-use-conversation-middo-call-maximize-mode-76-e-f65"
+  "/category/how-to-use-translation-482": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---category-how-to-use-translation-8-cd-73d"
   },
-  "/conversation/how-to-use-conversation/middo-call-minimize-mode-7ea": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---conversation-how-to-use-conversation-middo-call-minimize-modef-3-f-f3e"
+  "/category/middo-bots-807": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---category-middo-bots-082-0cd"
   },
-  "/conversation/what-is-conversation-822": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---conversation-what-is-conversation-7-a-8-acb"
+  "/category/station-0b2": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---category-stationff-5-75a"
   },
-  "/extension/how-to-use-extension/how-to-embed-conversation-to-your-website-6fe": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---extension-how-to-use-extension-how-to-embed-conversation-to-your-website-573-711"
+  "/category/translation-b59": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---category-translationfe-2-3bf"
   },
-  "/extension/how-to-use-extension/how-to-manage-your-script-conversation-4b6": {
+  "/conversation/how-to-use-conversation/converation-list-c03": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---extension-how-to-use-extension-how-to-manage-your-script-conversationea-7-a72"
+    "content": "content---conversation-how-to-use-conversation-converation-list-94-d-4e2"
   },
-  "/extension/what-is-extension-c9e": {
+  "/conversation/how-to-use-conversation/discussion-402": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---extension-what-is-extension-61-d-e51"
+    "content": "content---conversation-how-to-use-conversation-discussion-0-d-0-6e9"
   },
-  "/station/how-to-use-station/create-new-station-85e": {
+  "/conversation/how-to-use-conversation/input-message-box-d29": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---station-how-to-use-station-create-new-stationddf-c4b"
+    "content": "content---conversation-how-to-use-conversation-input-message-boxc-9-b-274"
   },
-  "/station/how-to-use-station/invite-members-fe1": {
+  "/conversation/how-to-use-conversation/message-box-26d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---station-how-to-use-station-invite-memberscc-9-5d1"
+    "content": "content---conversation-how-to-use-conversation-message-box-153-61a"
   },
-  "/station/how-to-use-station/manage-station-9bb": {
+  "/conversation/how-to-use-conversation/message-item-f1d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---station-how-to-use-station-manage-station-00-f-05f"
+    "content": "content---conversation-how-to-use-conversation-message-item-464-600"
   },
-  "/station/middo-bots/information-bot-ef5": {
+  "/conversation/how-to-use-conversation/middo-call-maximize-mode-1b1": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---station-middo-bots-information-bot-067-4dd"
+    "content": "content---conversation-how-to-use-conversation-middo-call-maximize-modee-10-24c"
   },
-  "/station/middo-bots/notification-bot-7c7": {
+  "/conversation/how-to-use-conversation/middo-call-minimize-mode-0e5": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---station-middo-bots-notification-bot-0-b-2-419"
+    "content": "content---conversation-how-to-use-conversation-middo-call-minimize-mode-73-c-9ea"
   },
-  "/station/middo-bots/setup-infobot-b24": {
+  "/conversation/what-is-conversation-741": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---station-middo-bots-setup-infobot-4-bb-01b"
+    "content": "content---conversation-what-is-conversation-7-a-6-5ec"
   },
-  "/station/middo-bots/summary-bot-740": {
+  "/extension/how-to-use-extension/how-to-embed-conversation-to-your-website-47a": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---station-middo-bots-summary-bot-5-ff-c4e"
+    "content": "content---extension-how-to-use-extension-how-to-embed-conversation-to-your-website-54-b-f03"
   },
-  "/station/what-is-station-865": {
+  "/extension/how-to-use-extension/how-to-manage-your-script-conversation-fe2": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---station-what-is-station-169-42f"
+    "content": "content---extension-how-to-use-extension-how-to-manage-your-script-conversation-9-aa-421"
   },
-  "/translation/how-to-use-translation/advance-features-945": {
+  "/extension/what-is-extension-1f7": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---translation-how-to-use-translation-advance-features-407-851"
+    "content": "content---extension-what-is-extension-421-926"
   },
-  "/translation/how-to-use-translation/source-076": {
+  "/station/how-to-use-station/create-new-station-9f4": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---translation-how-to-use-translation-source-48-e-22e"
+    "content": "content---station-how-to-use-station-create-new-stationfd-1-104"
   },
-  "/translation/how-to-use-translation/target-838": {
+  "/station/how-to-use-station/invite-members-36d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---translation-how-to-use-translation-target-573-7df"
+    "content": "content---station-how-to-use-station-invite-members-7-ab-603"
   },
-  "/translation/what-is-translation-510": {
+  "/station/how-to-use-station/manage-station-fd6": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---translation-what-is-translation-3-f-4-ca8"
+    "content": "content---station-how-to-use-station-manage-stationd-57-959"
   },
-  "/why-i-can-not-reply-to-a-conversation-9ee": {
+  "/station/middo-bots/information-bot-207": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---why-i-can-not-reply-to-a-conversation-94-a-938"
+    "content": "content---station-middo-bots-information-bot-5-ca-231"
   },
-  "/-e94": {
+  "/station/middo-bots/notification-bot-ce3": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---5-d-9-c13"
+    "content": "content---station-middo-bots-notification-bot-429-f9a"
+  },
+  "/station/middo-bots/setup-infobot-0cd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---station-middo-bots-setup-infobot-441-c9d"
+  },
+  "/station/middo-bots/summary-bot-a24": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---station-middo-bots-summary-bot-8-e-6-7cd"
+  },
+  "/station/what-is-station-00a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---station-what-is-station-60-e-346"
+  },
+  "/translation/how-to-use-translation/advance-features-fbe": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---translation-how-to-use-translation-advance-featuresa-14-477"
+  },
+  "/translation/how-to-use-translation/source-157": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---translation-how-to-use-translation-source-385-6e2"
+  },
+  "/translation/how-to-use-translation/target-0ae": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---translation-how-to-use-translation-targetabe-34a"
+  },
+  "/translation/what-is-translation-ff1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---translation-what-is-translation-23-c-5ff"
+  },
+  "/why-i-can-not-reply-to-a-conversation-f23": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---why-i-can-not-reply-to-a-conversation-93-d-25b"
+  },
+  "/-397": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---f-59-682"
   }
 }
