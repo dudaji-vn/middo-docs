@@ -16,7 +16,7 @@ This guide will walk you through the process of creating a Middo Station, a coll
 Open your web browser and navigate to [middo.app](https:/middo.app). Then click on your current station  
 ![](./img/how-to-create-station-1.png)
 **2\. Click "Create new station"**  
-Locate and click the `Create new station` button. This will take you to the station creation page  
+Locate and click the **Create new station** button. This will take you to the station creation page  
 ![](./img/how-to-create-station-2.png)
 
 ### Step 2: Name Your Station
@@ -31,7 +31,7 @@ You can upload a station avatar or company logo to personalize your station. Thi
 ### Step 3: Build Your Team
 
 **Add New Teams**  
-Click on the `Add new team` button. This will allow you to create teams within your station to organize members based on roles, projects, or departments. Enter the name of the team and click `Save`  
+Click on the **Add new team** button. This will allow you to create teams within your station to organize members based on roles, projects, or departments. Enter the name of the team and click **Save**  
 ![](./img/how-to-create-station-5.png)
 
 
@@ -40,7 +40,7 @@ Click on the `Add new team` button. This will allow you to create teams within y
 **Invite by Email/Username and choose team**  
 Enter the username or email address of the person you want to invite along with their role in the designated field  
 ![](./img/how-to-create-station-6.png)  
-Click the `Add` button  
+Click the **Add** button  
 ![](./img/how-to-create-station-7.png)
 
 You can also **invite members by sharing a link**. This link can be generated after you've created station. We'll guide you through this process later on [Invite member guide](./invite-members)

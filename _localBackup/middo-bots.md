@@ -23,8 +23,8 @@ Middo offers a variety of bots designed to enhance collaboration and efficiency 
     - Summarizing key findings from a meeting.
     - Creating a concise summary of a lengthy document.
 - **How to use?**
-    - In Discussion: Type `/Sum` bot then hit `Enter` to request the bot to summarize the entire conversation
-    - In Any Conversation: Type `/Sum bot` after adding a file into the input message box. Then hit `Enter` to send the file and request the bot to summarize this file
+    - In Discussion: Type `/Sum` bot then hit **Enter** to request the bot to summarize the entire conversation
+    - In Any Conversation: Type `/Sum bot` after adding a file into the input message box. Then hit **Enter** to send the file and request the bot to summarize this file
 
 ### **2. Notibot (Notification Bot)**
 

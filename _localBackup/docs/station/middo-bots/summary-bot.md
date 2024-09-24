@@ -21,12 +21,12 @@ title: Summary Bot
 - Creating a concise summary of a lengthy document.   
   
 **How to use?**  
--  **In Discussion**: Type `/Sum` bot then hit `Enter` to request the bot to summarize the entire conversation  
--  **In Any Conversation**: Type `/Sum bot` after adding a file into the input message box. Then hit `Enter` to send the file and request the bot to summarize this file  
+-  **In Discussion**: Type **/Sum** bot then hit **Enter** to request the bot to summarize the entire conversation  
+-  **In Any Conversation**: Type **/Sum bot** after adding a file into the input message box. Then hit **Enter** to send the file and request the bot to summarize this file  
   
 **Example Output:**  
 - **Input:** A document containing a detailed description of GPT-4, its capabilities, and limitations  
-- **Command:** `/Sum bot`  
+- **Command:** **/Sum bot**  
 - **Result:**  
 
 ![](./img/summary-bot-2.png)

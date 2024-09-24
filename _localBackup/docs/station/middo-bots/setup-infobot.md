@@ -13,21 +13,21 @@ Infobot is a powerful AI assistant that can answer questions based on the data y
 
 ### **1. Access the AI Bots Section**
 
-Open your Middo Station and go to the `Station settings` section    
+Open your Middo Station and go to the **Station settings** section    
 ![](./img/invite-members-1.png)
 
-Select `AI Bots` from the left-hand menu
+Select **AI Bots** from the left-hand menu
 ![](./img/setup-infobot-2.png)
 
 
 ### **2. Choose Infobot**
 
-From the list of available bots, select `Infobot`  
+From the list of available bots, select **Infobot**  
 ![](./img/setup-infobot-3.png)
 
 ### **3. Add Data**
 
-Infobot needs data to answer questions accurately. Click the `+ Add data` button to add data  
+Infobot needs data to answer questions accurately. Click the **+ Add data** button to add data  
 ![](./img/setup-infobot-4.png)
 Type simple information for your data:
 - **Name:** Give your data a clear and concise name
@@ -41,7 +41,7 @@ This will help you and your team members easily identify and understand the purp
 
 ### **4 Configure Mounts**
 
-Click on the `Mounts` section. Then enter the following information:
+Click on the **Mounts** section. Then enter the following information:
 - **Name:** A descriptive name for the mount
 - **Mnt Path:** The path to the mount on your system
 - **Endpoint:** The endpoint of the service or data source

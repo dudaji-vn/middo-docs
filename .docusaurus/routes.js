@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '0d3'),
+    component: ComponentCreator('/', '33f'),
     routes: [
       {
         path: '/next',
-        component: ComponentCreator('/next', '98e'),
+        component: ComponentCreator('/next', '222'),
         routes: [
           {
             path: '/next',
-            component: ComponentCreator('/next', '248'),
+            component: ComponentCreator('/next', '61a'),
             routes: [
               {
                 path: '/next/',
@@ -73,6 +73,36 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/next/category/get-started',
+                component: ComponentCreator('/next/category/get-started', '090'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/next/category/how-to-use-conversation',
+                component: ComponentCreator('/next/category/how-to-use-conversation', '275'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/next/category/how-to-use-extension',
+                component: ComponentCreator('/next/category/how-to-use-extension', '11c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/next/category/how-to-use-station',
+                component: ComponentCreator('/next/category/how-to-use-station', '059'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/next/category/how-to-use-translation',
+                component: ComponentCreator('/next/category/how-to-use-translation', '030'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/next/category/middo-bots',
                 component: ComponentCreator('/next/category/middo-bots', '0d1'),
                 exact: true,
@@ -81,6 +111,12 @@ export default [
               {
                 path: '/next/category/station',
                 component: ComponentCreator('/next/category/station', '469'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/next/category/translation',
+                component: ComponentCreator('/next/category/translation', '313'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -147,6 +183,30 @@ export default [
               {
                 path: '/next/extension/what-is-extension',
                 component: ComponentCreator('/next/extension/what-is-extension', 'a79'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/next/get-started/create-your-station',
+                component: ComponentCreator('/next/get-started/create-your-station', '7a4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/next/get-started/manage-account',
+                component: ComponentCreator('/next/get-started/manage-account', '9bb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/next/get-started/sign-up',
+                component: ComponentCreator('/next/get-started/sign-up', '836'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/next/get-started/start-communicating',
+                component: ComponentCreator('/next/get-started/start-communicating', '6db'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -234,11 +294,11 @@ export default [
       },
       {
         path: '/',
-        component: ComponentCreator('/', '0cd'),
+        component: ComponentCreator('/', 'ca7'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', '1a6'),
+            component: ComponentCreator('/', 'ef3'),
             routes: [
               {
                 path: '/category/conversation',
@@ -249,6 +309,12 @@ export default [
               {
                 path: '/category/extension',
                 component: ComponentCreator('/category/extension', '07e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/category/get-started',
+                component: ComponentCreator('/category/get-started', '21a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -357,6 +423,30 @@ export default [
               {
                 path: '/extension/what-is-extension',
                 component: ComponentCreator('/extension/what-is-extension', '1f7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/get-started/create-your-station',
+                component: ComponentCreator('/get-started/create-your-station', 'db9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/get-started/manage-account',
+                component: ComponentCreator('/get-started/manage-account', 'e82'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/get-started/sign-up',
+                component: ComponentCreator('/get-started/sign-up', '3ec'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/get-started/start-communicating',
+                component: ComponentCreator('/get-started/start-communicating', '47c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
