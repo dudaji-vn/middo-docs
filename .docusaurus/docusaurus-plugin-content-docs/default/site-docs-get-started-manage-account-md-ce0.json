@@ -1,0 +1,24 @@
+{
+  "id": "get-started/manage-account",
+  "title": "Manage Your Account",
+  "description": "Oversee your account settings and personalize your experience on Middo.app",
+  "source": "@site/docs/get-started/manage-account.md",
+  "sourceDirName": "get-started",
+  "slug": "/get-started/manage-account",
+  "permalink": "/next/get-started/manage-account",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "hide_table_of_contents": true,
+    "custom_edit_url": null,
+    "pagination_next": null,
+    "pagination_prev": null,
+    "title": "Manage Your Account"
+  },
+  "sidebar": "tutorialSidebar"
+}

@@ -6,7 +6,7 @@ pagination_next: null
 pagination_prev: null  
 title: Information Bot  
 ---  
-# Middo Bots
+# Middo Bots  
   
 ### **Infobot (Information Bot)**  
   
