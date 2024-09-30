@@ -1,0 +1,24 @@
+{
+  "id": "get-started/start-communicating copy",
+  "title": "Create Your Station",
+  "description": "A Middo Station is your dedicated workspace for your team, where you can organize conversations, calls, and other activities. Think of it as a central hub for your team's projects and discussions, designed to enhance communication, collaboration, and overall productivity.",
+  "source": "@site/versioned_docs/version-0.6/get-started/start-communicating copy.md",
+  "sourceDirName": "get-started",
+  "slug": "/get-started/start-communicating copy",
+  "permalink": "/get-started/start-communicating copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "0.6",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "hide_table_of_contents": true,
+    "custom_edit_url": null,
+    "pagination_next": null,
+    "pagination_prev": null,
+    "title": "Create Your Station"
+  },
+  "sidebar": "tutorialSidebar"
+}

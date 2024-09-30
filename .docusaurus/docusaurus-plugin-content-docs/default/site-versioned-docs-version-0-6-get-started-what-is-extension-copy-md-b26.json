@@ -1,0 +1,24 @@
+{
+  "id": "get-started/what-is-extension copy",
+  "title": "What is Extension",
+  "description": "What is Extension",
+  "source": "@site/versioned_docs/version-0.6/get-started/what-is-extension copy.md",
+  "sourceDirName": "get-started",
+  "slug": "/get-started/what-is-extension copy",
+  "permalink": "/get-started/what-is-extension copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "0.6",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "hide_table_of_contents": true,
+    "custom_edit_url": null,
+    "pagination_next": null,
+    "pagination_prev": null,
+    "title": "What is Extension"
+  },
+  "sidebar": "tutorialSidebar"
+}

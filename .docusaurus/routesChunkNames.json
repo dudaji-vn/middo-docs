@@ -49,17 +49,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/-0d3": {
+  "/-33f": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---aba-d70"
     }
   },
-  "/next-98e": {
+  "/next-222": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---nextb-68-93e"
   },
-  "/next-248": {
+  "/next-61a": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/next/-abf": {
@@ -74,6 +74,26 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---next-category-extension-4-ec-4b3"
   },
+  "/next/category/get-started-090": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---next-category-get-started-0-c-7-dbb"
+  },
+  "/next/category/how-to-use-conversation-275": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---next-category-how-to-use-conversation-314-b97"
+  },
+  "/next/category/how-to-use-extension-11c": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---next-category-how-to-use-extension-817-4c9"
+  },
+  "/next/category/how-to-use-station-059": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---next-category-how-to-use-statione-4-c-aa9"
+  },
+  "/next/category/how-to-use-translation-030": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---next-category-how-to-use-translation-7-ba-e91"
+  },
   "/next/category/middo-bots-0d1": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---next-category-middo-bots-078-d28"
@@ -81,6 +101,10 @@
   "/next/category/station-469": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---next-category-statione-52-5da"
+  },
+  "/next/category/translation-313": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---next-category-translation-1-c-2-f93"
   },
   "/next/conversation/how-to-use-conversation/converation-list-079": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -125,6 +149,22 @@
   "/next/extension/what-is-extension-a79": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---next-extension-what-is-extensionee-7-0b0"
+  },
+  "/next/get-started/create-your-station-7a4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---next-get-started-create-your-stationb-88-cf8"
+  },
+  "/next/get-started/manage-account-9bb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---next-get-started-manage-accountce-0-949"
+  },
+  "/next/get-started/sign-up-836": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---next-get-started-sign-up-824-f0d"
+  },
+  "/next/get-started/start-communicating-6db": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---next-get-started-start-communicating-233-c28"
   },
   "/next/station/how-to-use-station/create-new-station-01d": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -178,11 +218,11 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---next-why-i-can-not-reply-to-a-conversation-672-e96"
   },
-  "/-0cd": {
+  "/-ca7": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---22-d-307"
   },
-  "/-1a6": {
+  "/-ef3": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/category/conversation-ed7": {
@@ -192,6 +232,10 @@
   "/category/extension-07e": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---category-extensione-76-18d"
+  },
+  "/category/get-started-21a": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---category-get-starteda-00-3b2"
   },
   "/category/how-to-use-conversation-db9": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -264,6 +308,22 @@
   "/extension/what-is-extension-1f7": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---extension-what-is-extension-421-926"
+  },
+  "/get-started/create-your-station-db9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---get-started-create-your-stationd-62-f08"
+  },
+  "/get-started/manage-account-e82": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---get-started-manage-account-1-a-1-22c"
+  },
+  "/get-started/sign-up-3ec": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---get-started-sign-up-63-a-2b2"
+  },
+  "/get-started/start-communicating-47c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---get-started-start-communicatingcb-3-cc0"
   },
   "/station/how-to-use-station/create-new-station-9f4": {
     "__comp": "__comp---theme-doc-item-178-a40",

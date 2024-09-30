@@ -66,6 +66,26 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "get-started/create-your-station",
+              "path": "/next/get-started/create-your-station",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "get-started/manage-account",
+              "path": "/next/get-started/manage-account",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "get-started/sign-up",
+              "path": "/next/get-started/sign-up",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "get-started/start-communicating",
+              "path": "/next/get-started/start-communicating",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/next/",
               "sidebar": "tutorialSidebar"
@@ -136,8 +156,28 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/get-started",
+              "path": "/next/category/get-started",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/translation",
+              "path": "/next/category/translation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/how-to-use-translation",
+              "path": "/next/category/how-to-use-translation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/conversation",
               "path": "/next/category/conversation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/how-to-use-conversation",
+              "path": "/next/category/how-to-use-conversation",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -146,8 +186,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/how-to-use-extension",
+              "path": "/next/category/how-to-use-extension",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/station",
               "path": "/next/category/station",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/how-to-use-station",
+              "path": "/next/category/how-to-use-station",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -229,6 +279,26 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "get-started/create-your-station",
+              "path": "/get-started/create-your-station",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "get-started/manage-account",
+              "path": "/get-started/manage-account",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "get-started/sign-up",
+              "path": "/get-started/sign-up",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "get-started/start-communicating",
+              "path": "/get-started/start-communicating",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/",
               "sidebar": "tutorialSidebar"
@@ -296,6 +366,11 @@
             {
               "id": "why-i-can-not-reply-to-a-conversation",
               "path": "/why-i-can-not-reply-to-a-conversation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/get-started",
+              "path": "/category/get-started",
               "sidebar": "tutorialSidebar"
             },
             {

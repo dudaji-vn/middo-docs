@@ -13,15 +13,15 @@ This guide will walk you through the process of inviting members to your Middo S
 ## Step 1: Access the Members Section  
   
 **1. Navigate to Station Settings**    
-Open your Middo Station and go to the `Station settings` section    
+Open your Middo Station and go to the **Station settings** section    
 ![](./img/invite-members-1.png)  
   
 **2. Select "Members"**    
-Click on the `Members` option in the left-hand menu    
+Click on the **Members** option in the left-hand menu    
 ![](./img/invite-members-2.png)  
   
 **3. Click on "Add Members" button**    
-Click on the `Add Members` button in the top right corner    
+Click on the **Add Members** button in the top right corner    
 ![](./img/invite-members-3.png)  
   
   
@@ -39,7 +39,7 @@ Select the team you want to add the member to
 ![](./img/invite-members-5.png)  
   
 **3. Add Member**    
-Click the `Add +` button to add the member to your station    
+Click the **Add +** button to add the member to your station    
 ![](./img/invite-members-6.png)  
 **4. Action**    
 You can choose to **invite** the member **or reject** their invitation    
@@ -63,8 +63,8 @@ Click on the button on the right side of the link box to copy the generated link
 Share the link with the people you want to invite to your station    
   
 :::info **Important Notes:**  
--  You can invite members by email/username or by sharing a unique invitation link
+-  You can invite members by email/username or by sharing a unique invitation link  
 -  The invitation link has an expiration time, so make sure to share it with your team members before it expires    
-:::
+:::  
   
   
