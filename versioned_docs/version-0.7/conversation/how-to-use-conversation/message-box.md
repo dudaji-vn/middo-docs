@@ -21,7 +21,11 @@ title: Message Box
 **2. Start Middo Call**  
 Click this button to start a call with a person or group  
   
-**3. Show Conversation Information**  
+**3. Find Previous Messages**  
+Click this button to search for past messages within the conversation.
+
+
+**4. Show Conversation Information**  
 Click this button to show the information of any conversation  
   
 **4. Timestamp**  

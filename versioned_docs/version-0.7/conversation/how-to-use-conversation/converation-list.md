@@ -16,27 +16,32 @@ title: Conversation List
 **1. New Message Button**  
 Click this button to create a Personal conversation or Group conversation  
   
-**2. Conversation’s Settings**  
+**2. New Call Button**  
+Click this button to start a new call with a contact or group.
+
+**3. Conversation’s Settings**  
 Click this button to toggle:   
 - Translation tool  
 - E.S.L translated messages  
   
-**3. Search Bar**  
+**4. Change Station Button**  
+Click this button to switch to a different station.
+
+**5. Search Bar**  
 Enter a username, person’s name, or group’s name to search  
   
-**4. Conversation’s Tabs**  &nbsp;  
-- **All**: contains all types of conversations  
-- **Group**: contains only group type conversations  
-- **Archive**: contains only archived conversations  
-- **Waiting**: contains only un-know user's conversations  
-  
-**5. Avatar / Name / Message**  
+**6. Conversation’s Tabs**  &nbsp;  
+- **All**: Contains all conversations  
+- **Discussion**: Contains ongoing conversations  
+- **Archive**: Contains only archived conversations  
+
+**7. Avatar / Name / Message**  
 - **Avatar**: the representative image of a person or group  
 - **Name**: the person’s name or group’s name  
 - **Message**: content of the last message in the conversation  
   
-**6. Notification-off Icon**  
+**8. Notification-off Icon**  
 This icon will be shown whenever the conversation’s notification is turned off by yout  
   
-**7. Pin Conversation Icon**  
+**9. Pin Conversation Icon**  
 This icon will be shown whenever you pinned any conversations to top
