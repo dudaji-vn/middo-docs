@@ -1,2 +1,4 @@
-_backup/
+_localBackup/
 node_modules/
+.docusaurus/
+build/

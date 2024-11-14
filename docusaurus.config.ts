@@ -44,10 +44,20 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          routeBasePath: "/", // Đặt Docs làm trang chủ
+          routeBasePath: "/",
+          includeCurrentVersion: false,
+          lastVersion: "0.7",
+          versions: {
+            "0.7": {
+              label: "0.7.x",
+              path: "",
+            },
+            "0.6": {
+              label: "0.6.x",
+              path: "0.6",
+            },
+          },
+          onlyIncludeVersions: ["0.6", "0.7"],
 
           // editUrl:
           //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
