@@ -29,7 +29,3 @@ title: What's new in this Version
 
 - **Conversation Grouping**: Conversations are grouped based on their activity status, making it easier to prioritize ongoing discussions and archived ones.
 - **Clearer Navigation**: The sidebar now features a more intuitive layout, making it faster to find and interact with your discussions, messages, and other settings.
-
----
-
-Let me know if you’d like any adjustments or if there’s anything specific you want to add!
