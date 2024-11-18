@@ -1,0 +1,24 @@
+{
+  "id": "station/what-is-station",
+  "title": "What is Station",
+  "description": "What is Station",
+  "source": "@site/versioned_docs/version-0.6/station/what-is-station.md",
+  "sourceDirName": "station",
+  "slug": "/station/what-is-station",
+  "permalink": "/0.6/station/what-is-station",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "0.6",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "hide_table_of_contents": true,
+    "custom_edit_url": null,
+    "pagination_next": null,
+    "pagination_prev": null,
+    "title": "What is Station"
+  },
+  "sidebar": "tutorialSidebar"
+}

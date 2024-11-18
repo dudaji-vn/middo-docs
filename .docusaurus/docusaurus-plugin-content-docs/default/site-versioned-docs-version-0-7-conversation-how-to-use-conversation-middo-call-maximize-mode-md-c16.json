@@ -1,0 +1,24 @@
+{
+  "id": "conversation/how-to-use-conversation/middo-call-maximize-mode",
+  "title": "Middo Call (Maximize Mode)",
+  "description": "Middo Call (Maximize Mode)",
+  "source": "@site/versioned_docs/version-0.7/conversation/how-to-use-conversation/middo-call-maximize-mode.md",
+  "sourceDirName": "conversation/how-to-use-conversation",
+  "slug": "/conversation/how-to-use-conversation/middo-call-maximize-mode",
+  "permalink": "/conversation/how-to-use-conversation/middo-call-maximize-mode",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "0.7",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "hide_table_of_contents": true,
+    "custom_edit_url": null,
+    "pagination_next": null,
+    "pagination_prev": null,
+    "title": "Middo Call (Maximize Mode)"
+  },
+  "sidebar": "tutorialSidebar"
+}

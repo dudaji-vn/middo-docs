@@ -1,0 +1,24 @@
+{
+  "id": "get-started/sign-up",
+  "title": "Sign up",
+  "description": "Create a New Account",
+  "source": "@site/versioned_docs/version-0.7/get-started/sign-up.md",
+  "sourceDirName": "get-started",
+  "slug": "/get-started/sign-up",
+  "permalink": "/get-started/sign-up",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "0.7",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "hide_table_of_contents": true,
+    "custom_edit_url": null,
+    "pagination_next": null,
+    "pagination_prev": null,
+    "title": "Sign up"
+  },
+  "sidebar": "tutorialSidebar"
+}

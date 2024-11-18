@@ -1,0 +1,24 @@
+{
+  "id": "what-s-new",
+  "title": "What's new in this Version",
+  "description": "What's new",
+  "source": "@site/versioned_docs/version-0.7/what-s-new.md",
+  "sourceDirName": ".",
+  "slug": "/what-s-new",
+  "permalink": "/what-s-new",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "0.7",
+  "sidebarPosition": 1.1,
+  "frontMatter": {
+    "sidebar_position": 1.1,
+    "hide_table_of_contents": true,
+    "custom_edit_url": null,
+    "pagination_next": null,
+    "pagination_prev": null,
+    "title": "What's new in this Version"
+  },
+  "sidebar": "tutorialSidebar"
+}
